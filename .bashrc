@@ -12,3 +12,5 @@ alias gadd='git add'
 alias gcom='git commit'
 alias gs='git status'
 
+alias npmr='npm run start'
+alias npmrb='npm run build'
