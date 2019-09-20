@@ -100,6 +100,8 @@ source $ZSH/oh-my-zsh.sh
 
 
 alias gadd="git add ."
+alias npmr="npm run start"
+alias npmrb="npm run build"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
