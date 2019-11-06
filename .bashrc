@@ -11,6 +11,8 @@ alias wget='wget -c'
 alias gadd='git add'
 alias gcom='git commit'
 alias gs='git status'
+alias glog = 'git log --graph --pretty='\''%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'' --stat'
 
 alias npmr='npm run start'
 alias npmrb='npm run build'
+
