@@ -107,6 +107,8 @@ alias lg3= "git log --graph --pretty=format:'%C(bold blue)%h%Creset - %C(yellow)
 alias npmr="npm run start"
 alias npmrb="npm run build"
 
+## Python aliases
+alias pip="pip3"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
