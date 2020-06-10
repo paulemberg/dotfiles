@@ -110,6 +110,9 @@ alias npmrb="npm run build"
 ## Python aliases
 alias pip="pip3"
 
+# K8s aliases
+alias kubeup="kubectl --kubeconfig=<Path kubeconfig file> -n <namespace> port-forward <pod> 8080:80"
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
