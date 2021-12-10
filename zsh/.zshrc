@@ -98,6 +98,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+#Save me from myself
+alias rm=trash
+
 alias gadd="git add ."
 alias lg1="git log --graph --abbrev-commit --decorate --date=relative --all"
 alias lg2="git log --graph --oneline --decorate --all"
@@ -109,6 +112,10 @@ alias npmrb="npm run build"
 
 ## Python aliases
 alias pip="pip3"
+alias python="python3"
+
+#docker LocalBase
+alias localbase="cd <path>/containers_files/postgres && docker-compose up"
 
 # K8s aliases
 alias kubeup="kubectl --kubeconfig=<Path kubeconfig file> -n <namespace> port-forward <pod> 8080:80"
