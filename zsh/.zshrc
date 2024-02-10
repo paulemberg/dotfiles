@@ -115,7 +115,7 @@ alias pip="pip3"
 alias python="python3"
 
 #docker LocalBase
-alias localbase="cd <path>/containers_files/postgres && docker-compose up"
+alias localbase="cd <path>/containers_files/postgres && docker-compose up -d"
 
 # K8s aliases
 alias kubeup="kubectl --kubeconfig=<Path kubeconfig file> -n <namespace> port-forward <pod> 8080:80"
